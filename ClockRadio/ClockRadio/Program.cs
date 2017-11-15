@@ -10,6 +10,14 @@ namespace ClockRadio
     {
         static void Main(string[] args)
         {
+            ClockRadio clockRadio = new ClockRadio("106.9", false);
+
+            clockRadio.DisplayTime();
+            clockRadio.DisplayAlarmStatus();     
+
+            clockRadio.SetAlarm();
+
+            clockRadio.DisplayAlarmStatus();
         }
     }
 }
