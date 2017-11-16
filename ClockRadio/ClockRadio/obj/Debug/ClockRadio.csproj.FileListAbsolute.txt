@@ -1,1 +1,6 @@
 C:\Users\Chez\Desktop\CSharp\ClockRadio\ClockRadio\ClockRadio\bin\Debug\ClockRadio.exe.config
+C:\Users\Chez\Desktop\CSharp\ClockRadio\ClockRadio\ClockRadio\obj\Debug\ClockRadio.csprojResolveAssemblyReference.cache
+C:\Users\Chez\Desktop\CSharp\ClockRadio\ClockRadio\ClockRadio\bin\Debug\ClockRadio.exe
+C:\Users\Chez\Desktop\CSharp\ClockRadio\ClockRadio\ClockRadio\bin\Debug\ClockRadio.pdb
+C:\Users\Chez\Desktop\CSharp\ClockRadio\ClockRadio\ClockRadio\obj\Debug\ClockRadio.exe
+C:\Users\Chez\Desktop\CSharp\ClockRadio\ClockRadio\ClockRadio\obj\Debug\ClockRadio.pdb

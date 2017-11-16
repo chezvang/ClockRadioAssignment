@@ -26,18 +26,19 @@ namespace ClockRadio
         //member methods
         public void ChangeRadioStation()
         {
-
+            Console.WriteLine("Set the radio station:");
+            radioStation = Console.ReadLine();
         }
         public void ChangeTime()
         {
-            Console.WriteLine("Please eneter the new time:");
-            currentTime = Console.ReadLing();
+            Console.WriteLine("Please enter the new time:");
+            currentTime = Console.ReadLine();
         }
         public void DisplayAlarmStatus()
         {
             if (!isAlarmOn)
             {
-                Console.WriteLine("The alarm is currenty off.");
+                Console.WriteLine("The alarm is currenty set to off.");
             }
             else
             {
@@ -47,11 +48,11 @@ namespace ClockRadio
         }
         public void DisplayRadioStation()
         {
-
+            Console.WriteLine("The current radio station is set to " + radioStation + ".");
         }
         public void DisplayTime()
         {
-            Console.WriteLine("The current time is " + currentTime + ".");
+            Console.WriteLine("The current time is " + currentTime + ". The current radio station is " + radioStation + ".");
         }
         public void SetAlarm()
         {
@@ -67,14 +68,13 @@ namespace ClockRadio
             isAlarmOn = !isAlarmOn;
             if (isAlarmOn)
             {
-                Console.WriteLine("The alarm is on now.");
+                Console.WriteLine("The alarm is off.");
             }
             else
             {
-                Console.WriteLine(("The alarm is off now.");
+                Console.WriteLine("The alarm is on now.");
             }
-        }
-        
+        }        
 
     }
 }

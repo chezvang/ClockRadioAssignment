@@ -13,11 +13,16 @@ namespace ClockRadio
             ClockRadio clockRadio = new ClockRadio("106.9", false);
 
             clockRadio.DisplayTime();
-            clockRadio.DisplayAlarmStatus();     
-
-            clockRadio.SetAlarm();
 
             clockRadio.DisplayAlarmStatus();
+            clockRadio.SetAlarm();
+            clockRadio.DisplayAlarmStatus();
+
+            clockRadio.DisplayRadioStation();
+            clockRadio.ChangeRadioStation();
+            clockRadio.DisplayRadioStation();
+
+            Console.ReadKey();
         }
     }
 }
