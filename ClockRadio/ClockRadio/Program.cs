@@ -22,6 +22,8 @@ namespace ClockRadio
             clockRadio.ChangeRadioStation();
             clockRadio.DisplayRadioStation();
 
+            clockRadio.DisplayStatus();
+
             Console.ReadKey();
         }
     }

@@ -23,6 +23,11 @@ namespace ClockRadio
             this.isAlarmOn = isAlarmOn;
         }
 
+        public void DisplayStatus()
+        {
+            Console.WriteLine("Current time:" + currentTime + ". Alarm time:" + alarmTime + ". Radio station:" + radioStation + ".");
+        }
+
         //member methods
         public void ChangeRadioStation()
         {
@@ -74,7 +79,6 @@ namespace ClockRadio
             {
                 Console.WriteLine("The alarm is on now.");
             }
-        }        
-
+        }
     }
 }
